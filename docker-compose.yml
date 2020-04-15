@@ -10,9 +10,7 @@ services:
       - "mc:/data"
     environment:
       EULA: "TRUE"
-      ENABLE_RCON: "true"
-      RCON_PASSWORD: "testing"
-      RCON_PORT: 28016
+      ENABLE_RCON: "false"
     restart: always
 volumes:
   mc:
