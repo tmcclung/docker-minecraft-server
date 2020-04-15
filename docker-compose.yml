@@ -3,7 +3,7 @@ version: '3'
 
 services:
   minecraft:
-    image: docker.giffin.org/tmcclung/docker-minecraft-server
+    build: .
     ports:
       - "25565:25565"
     volumes:
