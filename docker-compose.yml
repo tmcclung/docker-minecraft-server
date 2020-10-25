@@ -23,6 +23,6 @@ services:
     volumes:	
       - "rcon:/opt/rcon-web-admin/db"	
 
-volumes:	volumes:
+volumes:
   mc:
   rcon:
