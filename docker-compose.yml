@@ -15,7 +15,7 @@ services:
       RCON_PORT: 28016
       VERSION: "latest"
     restart: always
- rcon:	
+  rcon:	
     image: itzg/rcon	
     ports:	
       - "4326:4326"	
