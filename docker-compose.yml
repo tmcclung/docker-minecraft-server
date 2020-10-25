@@ -12,7 +12,7 @@ services:
       EULA: "TRUE"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "testing"
-      RCON_PORT: 28016
+      RCON_PORT: 25575
       VERSION: "latest"
     restart: always
   rcon:	
