@@ -15,5 +15,14 @@ services:
       RCON_PORT: 28016
       VERSION: "latest"
     restart: always
-volumes:
+ rcon:	
+    image: itzg/rcon	
+    ports:	
+      - "4326:4326"	
+      - "4327:4327"	
+    volumes:	
+      - "rcon:/opt/rcon-web-admin/db"	
+
+volumes:	volumes:
   mc:
+  rcon:
